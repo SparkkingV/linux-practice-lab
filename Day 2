@@ -1,0 +1,18 @@
+📅 Day 2 – Brute Force Basics
+🔹 What I Learned
+Concept of Brute Force Attacks
+How attackers use wordlists (password lists)
+Basics of Python file handling:
+open()
+Reading files line by line
+Importance of:
+strip() → removes extra spaces/newlines
+time.sleep() → slows down execution (realistic simulation)
+🔹 Practical Work
+Created a password wordlist (passwords.txt)
+Wrote a Python script to:
+Read passwords from file
+Print each attempt
+🔹 Key Takeaway
+
+Brute force attacks rely on automation and large datasets, not intelligence.
