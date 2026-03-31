@@ -1,0 +1,19 @@
+Day 3 – Brute Force Simulation
+🔹 What I Learned
+How brute force works in real scenarios
+Using loops to simulate password attempts
+Comparing input with a correct password
+Using:
+break → stop loop when password is found
+Boolean flags (found = True)
+🔹 Practical Work
+Built a basic brute force simulator in Python:
+Reads passwords from file
+Tries each password
+Stops when correct password is found
+Added:
+Delay (time.sleep())
+Success & failure messages
+🔹 Key Takeaway
+
+Even simple scripts can simulate real-world attacks — logic is more important than complexity.
