@@ -1,0 +1,78 @@
+# 🌐 CYSEC - Day 5: Login Page + Attack Simulation
+
+## 📌 Overview
+
+On Day 5, I built a simple login page and tested it using basic attack simulation techniques. This marks my transition into **web application security**.
+
+---
+
+## 💻 What I Built
+
+### 1. Login Page (Frontend)
+
+* Created using HTML
+* Takes username and password input
+* Basic structure for authentication system
+
+### 2. Attack Simulation Script
+
+* Python script to automate login attempts
+* Uses a list of passwords (wordlist)
+* Simulates repeated login attempts on the system
+
+---
+
+## ⚙️ How It Works
+
+1. User enters credentials in login page
+2. Script tries multiple password combinations
+3. If correct password is found → access granted
+4. Demonstrates how weak systems can be attacked
+
+---
+
+## 🧠 Key Concepts Learned
+
+* Basics of web authentication
+* How login forms are targeted
+* Automation of login attempts
+* Importance of backend security
+
+---
+
+## 🛡️ Security Insights
+
+* Never rely only on frontend validation
+* Implement rate limiting
+* Use account lock mechanisms
+* Add CAPTCHA to prevent bots
+* Enable Multi-Factor Authentication (MFA)
+
+---
+
+## 📂 Files in This Project
+
+* `index.html` → Login page
+* `attack.py` → Login attack simulation script
+* `passwords.txt` → Wordlist
+
+---
+
+## 🚀 Future Improvements
+
+* Connect to a backend (Flask/Django)
+* Store credentials securely (hashed passwords)
+* Add login attempt logging
+* Implement real authentication system
+
+---
+
+## 📅 Progress
+
+✔️ Day 5 Completed
+
+---
+
+## ⚠️ Disclaimer
+
+This project is for educational purposes only. Do not use these techniques on real systems without permission.
