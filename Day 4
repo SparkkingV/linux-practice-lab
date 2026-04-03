@@ -1,0 +1,71 @@
+# 🔐 CYSEC - Day 4: Dictionary Attack vs Brute Force
+
+## 📌 Overview
+
+On Day 4, I explored the difference between **Brute Force Attacks** and **Dictionary Attacks**, focusing on efficiency and real-world usage.
+
+---
+
+## ⚙️ Brute Force vs Dictionary Attack
+
+| Feature          | Brute Force Attack     | Dictionary Attack |
+| ---------------- | ---------------------- | ----------------- |
+| Method           | Tries all combinations | Uses a wordlist   |
+| Speed            | Slow                   | Faster            |
+| Efficiency       | Low                    | High              |
+| Real-world usage | Less common            | More common       |
+
+---
+
+## 💻 What I Built
+
+A Python-based simulation that:
+
+* Reads passwords from a wordlist (`passwords.txt`)
+* Attempts login using each password
+* Stops when the correct password is found
+
+---
+
+## 🧠 Key Concepts Learned
+
+* Attack optimization techniques
+* Importance of wordlists in cybersecurity
+* Real-world attack strategies
+* Efficiency vs completeness in attacks
+
+---
+
+## 🛡️ Security Insights
+
+* Avoid using common passwords
+* Use long and complex passwords
+* Enable Multi-Factor Authentication (MFA)
+* Regularly update passwords
+
+---
+
+## 📂 Files in This Project
+
+* `dictionary_attack.py` → Script for dictionary attack
+* `passwords.txt` → Password wordlist
+
+---
+
+## 🚀 Future Improvements
+
+* Combine brute force + dictionary attack (hybrid attack)
+* Use larger real-world wordlists
+* Add logging for failed attempts
+
+---
+
+## 📅 Progress
+
+✔️ Day 4 Completed
+
+---
+
+## ⚠️ Disclaimer
+
+This project is for educational purposes only. Do not use these techniques on real systems without permission.
