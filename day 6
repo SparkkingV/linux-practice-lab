@@ -1,0 +1,17 @@
+# CYSEC Day 6 – Linux Process Lab
+
+## Objective:
+Simulate and detect malicious processes in Linux.
+
+## Labs:
+- Created Python-based fake malware
+- Monitored processes using ps and top
+- Killed processes using kill and kill -9
+- Ran background processes
+- Simulated CPU-intensive attack
+
+## Key Learning:
+Linux process monitoring is essential for detecting malware and unusual system behavior.
+
+## Status:
+Completed ✅
